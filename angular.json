@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "town"
+    }
+  },
+  "defaultProject": "town",
+  "cli": {
+    "analytics": false
+  }
 }

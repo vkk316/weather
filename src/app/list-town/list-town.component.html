@@ -1,0 +1,7 @@
+<div class="towns">
+    <a *ngFor="let town of towns" routerLink="/detail/{{town.code}}">
+        <div>
+            <h4>{{town.name}}</h4>
+        </div>
+    </a>
+</div>
