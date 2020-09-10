@@ -3,7 +3,7 @@ import { Town } from './town';
 import { Towns } from './mock-town';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { WEATHER } from './weather';
-import { from } from 'rxjs';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
